@@ -8,8 +8,8 @@
 import Foundation
 import SwiftUI
 
-extension View {
-    public func widthInfinity() -> some View {
+public extension View {
+    func widthInfinity() -> some View {
         self.modifier(CustomViewModifier.Infinity())
     }
 
